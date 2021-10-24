@@ -56,7 +56,7 @@ function Header() {
           <div className="sellMenuContent">
             <SellButtonPlus></SellButtonPlus>
             <span onClick={()=>{
-
+              history.push('/create')
             }} >SELL</span>
           </div>
         </div>
